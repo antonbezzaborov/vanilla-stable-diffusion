@@ -1,4 +1,4 @@
-# Vanilla Stable Diffusion (Pure PyTorch Engine) 
+# Vanilla Stable Diffusion (PyTorch Engine) 
 
 Минималистичная, легковесная и полностью независимая реализация инференса **Stable Diffusion v1.5**, написанная с нуля на **PyTorch**.
 
