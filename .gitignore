@@ -1,0 +1,16 @@
+data/
+*.ckpt
+*.safetensors
+*.pt
+*.pth
+
+venv/
+env/
+.env
+
+__pycache__/
+*.pyc
+.DS_Store
+
+output.png
+*.jpg
