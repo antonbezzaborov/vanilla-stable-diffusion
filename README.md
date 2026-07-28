@@ -43,12 +43,12 @@ pip install -r requirements.txt
 Проект управляется через удобный интерфейс командной строки (main.py).
 Text-to-Image (Генерация по тексту)
 ```bash
-python main.py --prompt "Город будущего, неоновые огни, детализация" --steps 50 --seed 42
+python src/main.py --prompt "Город будущего, неоновые огни, детализация" --steps 50 --seed 42
 ```
 Результат по умолчанию сохраняется как output.png.
 Image-to-Image (Генерация на основе картинки)
 ```bash
-python main.py --prompt "Акварель, размытые пастельные тона, мягкие переходы" --image "./source.jpg" --strength 0.75 --steps 50
+python src/main.py --prompt "Акварель, размытые пастельные тона, мягкие переходы" --image "./source.jpg" --strength 0.75 --steps 50
 ```
 Дополнительные параметры:
 - `--prompt` — Текст для генерации.
